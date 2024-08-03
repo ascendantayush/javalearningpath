@@ -11,13 +11,13 @@ public class hw2 {
         Scanner cin = new Scanner(System.in);
 
         System.out.println("Enter the first angle of the triangle : ");
-        double angle1 = cin.nextInt();
+        double angle1 = cin.nextDouble();
 
         System.out.println("Enter the second angle of the triangle : ");
-        double angle2 = cin.nextInt();
+        double angle2 = cin.nextDouble();
 
         System.out.println("Enter the third angle of the triangle : ");
-        double angle3 = cin.nextInt();
+        double angle3 = cin.nextDouble();
 
         if (angle1 + angle2 + angle3 == 180.0) {
             System.out.println("Triangle is possible");
