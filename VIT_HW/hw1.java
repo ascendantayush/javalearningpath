@@ -6,7 +6,7 @@
 // Plus Rs. 0.50 per call for next	50 calls.
 // Plus Rs. 0.40 per call for any call beyond 200 calls
 import java.util.*;
-public class hw {
+public class hw1 {
     public static void main(String[] args) {
         Scanner cin = new Scanner(System.in);
         System.out.println("enter the total number of call made by user: ");
